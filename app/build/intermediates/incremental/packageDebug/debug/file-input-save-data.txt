@@ -1,0 +1,35 @@
+#Internal package file, do not edit.
+#Tue May 15 01:36:37 CLT 2018
+7.path=graph.lite
+2.base=C\:\\Users\\bishop\\Desktop\\tflite\\app\\build\\intermediates\\assets\\debug
+5.set=NATIVE_RESOURCE
+0.path=lib/x86_64/libtensorflowlite_jni.so
+2.baseType=DIRECTORY
+3.base=C\:\\Users\\bishop\\Desktop\\tflite\\app\\build\\intermediates\\assets\\debug
+7.baseType=DIRECTORY
+2.set=ASSET
+1.path=lib/x86/libtensorflowlite_jni.so
+4.base=C\:\\Users\\bishop\\Desktop\\tflite\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+7.set=ASSET
+count=8
+5.baseType=DIRECTORY
+2.path=labels.txt
+5.base=C\:\\Users\\bishop\\Desktop\\tflite\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+4.set=NATIVE_RESOURCE
+3.path=BUILD
+6.base=C\:\\Users\\bishop\\Desktop\\tflite\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\25
+3.baseType=DIRECTORY
+1.set=NATIVE_RESOURCE
+4.path=lib/armeabi-v7a/libtensorflowlite_jni.so
+7.base=C\:\\Users\\bishop\\Desktop\\tflite\\app\\build\\intermediates\\assets\\debug
+6.set=DEX
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=lib/arm64-v8a/libtensorflowlite_jni.so
+0.base=C\:\\Users\\bishop\\Desktop\\tflite\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+0.baseType=DIRECTORY
+3.set=ASSET
+6.path=classes.dex
+1.base=C\:\\Users\\bishop\\Desktop\\tflite\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+4.baseType=DIRECTORY
+0.set=NATIVE_RESOURCE
