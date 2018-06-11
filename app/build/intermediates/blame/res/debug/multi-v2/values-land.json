@@ -1,0 +1,86 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\bishop\\Desktop\\NavigationView-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\bishop\\.gradle\\caches\\transforms-1\\files-1.1\\design-22.2.0.aar\\141dd1dd85d95564f4b998eb8e091a70\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "286",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "463"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "532",
+                        "endLines": "12",
+                        "endColumns": "12",
+                        "endOffsets": "709"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bishop\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\b746b0e620d015056706d40a980d15a7\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "4,7,10,11,14,17,18",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "291,590,908,978,1285,1595,1666",
+                        "endColumns": "61,71,69,69,63,70,67",
+                        "endOffsets": "348,657,973,1043,1344,1661,1729"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,117,189,259,329,393,464",
+                        "endColumns": "61,71,69,69,63,70,67",
+                        "endOffsets": "112,184,254,324,388,459,527"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Inf_bishop\\Desktop\\NavigationView-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Inf_bishop\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\8bc5c963f2c6d6768821d3a6634d715a\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "4,7,10,11,14,17,18",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "291,590,908,978,1285,1595,1666",
+                        "endColumns": "61,71,69,69,63,70,67",
+                        "endOffsets": "348,657,973,1043,1344,1661,1729"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,117,189,259,329,393,464",
+                        "endColumns": "61,71,69,69,63,70,67",
+                        "endOffsets": "112,184,254,324,388,459,527"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Inf_bishop\\.gradle\\caches\\transforms-1\\files-1.1\\design-22.2.0.aar\\c67f1c3657ce2af222586f782ec4381d\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "286",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "463"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "532",
+                        "endLines": "12",
+                        "endColumns": "12",
+                        "endOffsets": "709"
+                    }
+                }
+            ]
+        }
+    ]
+}
