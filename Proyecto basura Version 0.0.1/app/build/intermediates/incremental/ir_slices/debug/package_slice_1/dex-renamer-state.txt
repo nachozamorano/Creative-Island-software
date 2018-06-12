@@ -1,0 +1,4 @@
+#Sat Jun 02 00:42:11 CLT 2018
+base.0=C\:\\Users\\inf_b\\Desktop\\tflite\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex
