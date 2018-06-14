@@ -182,14 +182,14 @@ public class MainActivity extends AppCompatActivity {
         ByteArrayOutputStream bytes = new ByteArrayOutputStream();
         finalBitmap.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
 
-//you can create a new file name "test.jpg" in sdcard folder.
+//puedes crear un nuevo archivo en el almacenamiento.
         File f = new File(path);
         try {
             f.createNewFile();
         } catch (IOException e) {
             e.printStackTrace();
         }
-//write the bytes in file
+//escribe los bytes en los archivos
         FileOutputStream fo = null;
         try {
             fo = new FileOutputStream(f);
@@ -202,7 +202,7 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-// remember close de FileOutput
+// cierra el proceso de file
         try {
             fo.close();
         } catch (IOException e) {
