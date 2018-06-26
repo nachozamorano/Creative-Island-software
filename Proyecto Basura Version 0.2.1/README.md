@@ -1,0 +1,1 @@
+Proyecto Basura APP prototipo reconocimiento de imagenes

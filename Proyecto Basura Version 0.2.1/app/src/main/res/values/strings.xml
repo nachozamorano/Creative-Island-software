@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TrashAPP</string>
+    <string name="detect_object">Foto</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

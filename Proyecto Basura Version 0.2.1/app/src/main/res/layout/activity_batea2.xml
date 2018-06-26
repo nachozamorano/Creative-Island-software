@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/lnr1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="105dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borde"
+        android:text="Donar" />
+
+    <ListView
+        android:id="@+id/listado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:headerDividersEnabled="true"
+        android:isScrollContainer="true"
+        android:nestedScrollingEnabled="true"
+        android:clickable="true">
+
+
+    </ListView>
+
+</LinearLayout>
