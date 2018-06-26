@@ -34,9 +34,7 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-
-        <activity
-            android:name=".MapsActivity"
+        <activity android:name=".Splashscreen"
             android:label="TrashAPP">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -45,6 +43,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".batea1" />
+        <activity android:name=".MapsActivity"/>
         <activity android:name=".batea2"></activity>
     </application>
 
