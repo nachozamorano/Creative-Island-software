@@ -47,6 +47,7 @@ public interface Classifier {
             }
 
             if (confidence != null) {
+				//se le agrega en esta parte que sean solo los valores mayores a 50% para dar una mayor creedibilidad si no se marca con(--)
                 if(confidence>=0.5) {
                     resultString += String.format("(%.1f%%) ", confidence * 100.0f);
                 }

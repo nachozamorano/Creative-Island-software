@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
     private Classifier classifier;
     private Executor executor = Executors.newSingleThreadExecutor();
     private TextView textViewResult;
+	//se le agregan dos botones para la seleccion de dos alternativas posibles arriba de un 50%
     private Button btnDetectObject, btnToggleCamera,opcion1,opcion2;
     private ImageView imageViewResult;
     private CameraView cameraView;
@@ -78,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
         textViewResult.setMovementMethod(new ScrollingMovementMethod());
         btnToggleCamera = findViewById(R.id.btnToggleCamera);
         btnDetectObject = findViewById(R.id.btnDetectObject);
+		//se le agrega la union con la clase con el archivo xml 
         opcion1 = findViewById(R.id.button3);
         opcion2 = findViewById(R.id.button4);
 
@@ -195,6 +197,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+	//funcion para guardar la imagen
     private void SaveImage(Bitmap finalBitmap) {
 
         ByteArrayOutputStream bytes = new ByteArrayOutputStream();
