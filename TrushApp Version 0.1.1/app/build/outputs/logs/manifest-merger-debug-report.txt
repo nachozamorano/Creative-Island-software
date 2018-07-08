@@ -1,0 +1,157 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\3ffec3fd3c2a00a1880a823118ebb803\AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite:0.1.7] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.1.7.aar\42e2b46757da069154f76a1b704beda5\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:exifinterface:27.0.2] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\exifinterface-27.0.2.aar\145d25118eeb46359828ede442928356\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\db3729083eb3fe642ed9c6e2fd272091\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\55e8e455ba9164e3f72eaf946214e0e4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\ccbb12cc00c50ea529d2e98c7505b9c5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\937c1cf4b2c17c3442bd047655271d3d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\041368eec2e6dd71a93dbfa7f3666b7a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\cf95db2d6b93ca66c9fa159c35370368\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\dbf6c2cf59340d5832ddbfab7801e1de\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\82ba463a1228e0e6f23f371459f05564\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1fa2e5a6b5a0b3a3c3f6c4469c73f961\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\15e2af9bde8bd62c14f2990abedc73b1\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:4:5-81
+MERGED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:10:5-81
+MERGED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:4:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:6:5-75
+	android:name
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:6:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:7:22-77
+application
+ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:8:5-22:19
+MERGED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:25:5-20
+MERGED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:25:5-20
+MERGED from [org.tensorflow:tensorflow-lite:0.1.7] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.1.7.aar\42e2b46757da069154f76a1b704beda5\AndroidManifest.xml:4:5-5:19
+MERGED from [org.tensorflow:tensorflow-lite:0.1.7] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.1.7.aar\42e2b46757da069154f76a1b704beda5\AndroidManifest.xml:4:5-5:19
+	android:supportsRtl
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.amitshekhar.tflite.MainActivity
+ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:15:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+MERGED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:6:5-8:41
+MERGED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\3ffec3fd3c2a00a1880a823118ebb803\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\3ffec3fd3c2a00a1880a823118ebb803\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.0.2] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\exifinterface-27.0.2.aar\145d25118eeb46359828ede442928356\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.0.2] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\exifinterface-27.0.2.aar\145d25118eeb46359828ede442928356\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\db3729083eb3fe642ed9c6e2fd272091\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\db3729083eb3fe642ed9c6e2fd272091\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\55e8e455ba9164e3f72eaf946214e0e4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\55e8e455ba9164e3f72eaf946214e0e4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\ccbb12cc00c50ea529d2e98c7505b9c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\ccbb12cc00c50ea529d2e98c7505b9c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\937c1cf4b2c17c3442bd047655271d3d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\937c1cf4b2c17c3442bd047655271d3d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\041368eec2e6dd71a93dbfa7f3666b7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\041368eec2e6dd71a93dbfa7f3666b7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\cf95db2d6b93ca66c9fa159c35370368\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\cf95db2d6b93ca66c9fa159c35370368\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\dbf6c2cf59340d5832ddbfab7801e1de\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\dbf6c2cf59340d5832ddbfab7801e1de\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\82ba463a1228e0e6f23f371459f05564\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\82ba463a1228e0e6f23f371459f05564\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1fa2e5a6b5a0b3a3c3f6c4469c73f961\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1fa2e5a6b5a0b3a3c3f6c4469c73f961\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\15e2af9bde8bd62c14f2990abedc73b1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\15e2af9bde8bd62c14f2990abedc73b1\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\inf_b\Desktop\Proyecto Basura Version 0.1.1\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:11:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:12:22-68
+uses-feature#android.hardware.camera
+ADDED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:14:5-60
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:14:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:16:9-57
+uses-feature#android.hardware.camera.front
+ADDED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:18:5-20:36
+	android:required
+		ADDED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:20:9-33
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:19:9-53
+uses-feature#android.hardware.microphone
+ADDED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:21:5-23:36
+	android:required
+		ADDED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:23:9-33
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] C:\Users\inf_b\.gradle\caches\transforms-1\files-1.1\camerakit-0.13.1.aar\1b0da53033922eb3f54c921b09cde978\AndroidManifest.xml:22:9-51

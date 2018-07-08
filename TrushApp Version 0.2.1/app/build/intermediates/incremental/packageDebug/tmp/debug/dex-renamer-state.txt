@@ -1,0 +1,4 @@
+#Tue Jun 26 00:27:24 CLT 2018
+base.0=C\:\\Users\\inf_b\\Desktop\\Proyecto Basura 0.2.1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
