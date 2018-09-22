@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Publicaciones"
+    android:layout_margin="20dp">
+    <EditText
+        android:id="@+id/edittext10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Buscar"
+        >
+    </EditText>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_below="@+id/edittext10"/>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/my_fab2"
+        android:layout_alignEnd="@+id/my_fab2"
+        android:text="Publicar"
+        android:layout_alignRight="@+id/my_fab2" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/my_fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="14dp"
+        android:src="@drawable/ic_library_add_black_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp" />
+    <Button
+        android:id="@+id/previo1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#0076b2aa"
+        android:drawable="@android:color/transparent"
+        android:text="Previo"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/siguiente1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/previo1"
+        android:layout_toRightOf="@+id/previo1"
+        android:background="@android:color/transparent"
+        android:drawable="@android:color/transparent"
+        android:text="Siguiente" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="45dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@android:drawable/ic_menu_sort_alphabetically"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp" />
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/siguiente1"
+        android:ems="10"
+        android:inputType="number"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_toRightOf="@+id/siguiente1" />
+
+</RelativeLayout>
