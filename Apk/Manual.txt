@@ -1,0 +1,15 @@
+La aplicación de Mercado virtual de donaciones Eco Ruta es una aplicación para smartphones
+Android versión 8.0 o superior, que permite la donacion entre ciudadanos o recolectores de objetos que estan a punto de transformarse basura pero que aun estan buenos publicandolo en esta aplicacion para algun interesado de adquirirlo. La aplicación es nativa, por lo que las conexiones son rápidas y la interfaz está simplificada para el uso en el teléfono. Las funciones de la aplicación son ver las
+donaciones, publicar objetos, modificar el objeto, eliminar objeto, crear un usuario, entre otras. Todo este es ambientado en la ciudad de QUilpue para su municipalida y su ciudadania.
+
+Ésta aplicación se puede descargar accediendo al Github https://github.com/nachozamorano/Creative-Island-software/tree/branch_ignacio/Apk
+
+Al inicio de la aplicacion se muestra el Login que consta con un registro si aun no tiene cuenta y un boton iniciar cuando ya este registrado y pasar al menu principal. El menu principal contiene todos los objetos que estan siendo donado por ciudadanos de Quilpue, contiene como funcionalidad una paginacion que muestra 5 objetos y uno puede navegar con los botones siguente (para avanzar) o atras ( para retroeder), se pueden clickear los objetos de la lista pudiendo ver mas detalladamente. Seguido en la misma vista un boton (+) con ese simbolo para poder subir un objeto para ser donado. Ademas contiene un menu al lado izquierdo que se puede ver el perfil, Mis publicaciones, Historial donados, Historial adquiridos.
+
+- El perfil contiene los datos del ciudadano que serian la imagen, la ciudad, correo, telefono movil, telefono fijo y genero. Ademas el ciudadano en su perfil lo puede modificar apretando el boton modificar y dando click al boton listo cuando esta listo para el cambio.
+
+- Mis publicaciones contiene una lista con los objetos que uno ha publicado y al hacer click en el objeto puede modificar este.
+
+- Historial donados contiene los objetos que he donado y tambien al dar click en el objeto se muestra el nombre del interesado en el objeto y su estado de si esta Libre, Reservado o Donado.
+
+- Historial adquiridos contiene una lista con los objetos que yo como usuario he adquirido y divisar con detalle en que momento y a quien fue.

@@ -1,0 +1,14 @@
+Previo Instalacion:
+En la mayoría de los casos Android tiene deshabilitada por ejemplo la opción de instalar aplicaciones de orígenes desconocidos, que son todas las que no se instalan a través de Google Play que es en este caso. Para ello ve a los Ajustes de Android, y una vez en ellos *pulsa sobre la opción Seguridad.
+
+Una vez dentro, pulsa sobre el interruptor que tienes al lado de la opción Orígenes desconocidos para activarla.
+
+Descarga:
+Ahora procede a descargar la aplicación APK Eco Ruta en esta direccion https://github.com/nachozamorano/Creative-Island-software/tree/branch_ignacio/Apk.
+
+Instalacion:
+Cuando hayas bajado la aplicación tendrás una notificación, y sólo tendrás que abrir el panel de notificaciones y pulsar sobre Eco Ruta
+
+Te aparecerá la tabla de información con todos los elementos de tu móvil a los que va a acceder la app, y sólo tendrás que pulsar en Instalar para proceder a instalarla.
+
+Y listo instalada la aplicacion Eco Ruta.!!!!!
