@@ -28,6 +28,15 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
 
             mysqli_close($conexion);
 
+        } else if ($password != $row['password']){
+
+        	$result['success'] = "2";
+            $result['message'] = "Usuario incorrecto";
+            echo json_encode($result);
+
+            mysqli_close($conexion);
+
+
         } else {
 
             $result['success'] = "0";

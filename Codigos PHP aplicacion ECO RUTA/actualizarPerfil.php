@@ -15,22 +15,41 @@ $actualizar = "UPDATE usuario SET nombre = '$nombre', correo = '$correo', telefo
 $resultado = mysqli_query($conexion,$actualizar);
 
 if(!$resultado){
-    echo "Error al actualizar informacion";
+    echo "Error al crear Usuario";
 }else{
-    echo "Informacion actualizada exitosamente";
+    echo "Usuario creado exitosamente" . '<br>';
+   
+    $last_id = mysqli_insert_id($conexion);
+
+    echo $last_id . '<br>';
+
 //-------------Codigo que se encarga de subir la imagen------------------------
-if($_SERVER['REQUEST_METHOD']=='POST'){
+if($imagen == NULL){
 	
- $id = $id_usuario;
+$id = $last_id;
+$actualpath = "https://ecoruta.webcindario.com/uploads/ERROR.png";
+$agregarImagen = "UPDATE usuario SET usuario.img_perfil = '$actualpath' WHERE id_usuario = '$last_id'";
+ 
+ if(mysqli_query($conexion,$agregarImagen)){
+ file_put_contents($path,base64_decode($imagen));
+ echo "Subio imagen Correctamente";
+ }
+ 
+ mysqli_close($conexion);
+
+}else{   
+if($_SERVER['REQUEST_METHOD']=='POST'){
+
+ $id = $last_id;
 
  $path = "uploads/$id.png";
  
  $actualpath = "https://ecoruta.webcindario.com/$path";
  
- $agregarImagen = "UPDATE usuario SET usuario.img_perfil = '$actualpath' WHERE id_usuario = '$id_usuario'";
+ $agregarImagen = "UPDATE usuario SET usuario.img_perfil = '$actualpath' WHERE id_usuario = '$last_id'";
  
  if(mysqli_query($conexion,$agregarImagen)){
- file_put_contents($path,base64_decode($img_perfil));
+ file_put_contents($path,base64_decode($imagen));
  echo "Subio imagen Correctamente";
  }
  
@@ -38,6 +57,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 }else{
  echo "Error";
 }
-//----------------------------------------------------------------------------    
+//----------------------------------------------------------------------------
+}
 }
 ?>

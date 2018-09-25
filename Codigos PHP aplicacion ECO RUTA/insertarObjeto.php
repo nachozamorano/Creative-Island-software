@@ -25,20 +25,34 @@ $resultado = mysqli_query($conexion,$insertar);
 
 
 if(!$resultado){
-    echo "Error al registrarse";
+    echo "Error al crear Usuario";
 }else{
-    echo "Objeto Ingresado exitosamente";
-//------------este codigo se encarga de retomar el id del objeto recien publicado y guardarlo en la tabla transaccion
-    echo $last_id;
-    
+    echo "Usuario creado exitosamente" . '<br>';
+   
     $last_id = mysqli_insert_id($conexion);
 
-    $insertarTran = "INSERT INTO transaccion(transaccion.id_objeto, transaccion.id_dueno, transaccion.id_estado) VALUES ('$last_id', '$id_propietario', '1')";
+    echo $last_id . '<br>';
+
+    $insertarTran = "INSERT INTO `transaccion`(`id_objeto`, `id_dueno`, `id_estado`) VALUES ('$last_id', '$id_propietario', '1')";
 
     $resultadotrans = mysqli_query($conexion,$insertarTran);
-//-------------------------------------------------------------------------------------------------------------------
+
 //-------------Codigo que se encarga de subir la imagen------------------------
-if($_SERVER['REQUEST_METHOD']=='POST'){	
+if($imagen == NULL){
+	
+$id = $last_id;
+$actualpath = "https://ecoruta.webcindario.com/fotosObjetos/ERROR.png";
+$agregarImagen = "UPDATE objeto SET objeto.imagen = '$actualpath' WHERE id_objeto = '$last_id'";
+ 
+ if(mysqli_query($conexion,$agregarImagen)){
+ file_put_contents($path,base64_decode($imagen));
+ echo "Subio imagen Correctamente";
+ }
+ 
+ mysqli_close($conexion);
+
+}else{   
+if($_SERVER['REQUEST_METHOD']=='POST'){
 
  $id = $last_id;
 
@@ -54,12 +68,13 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
  }
  
  mysqli_close($conexion);
+
 }else{
  echo "Error";
 }
-//----------------------------------------------------------------------------    
-    
+//----------------------------------------------------------------------------
 }
 
+}
 ?>
 
