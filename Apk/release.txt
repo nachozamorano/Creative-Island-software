@@ -1,14 +1,16 @@
 Issues abiertos:
 - Problemas con la resolución del logo de la aplicación.
-- Problemas con los datos que contengan la letra **Ñ**.
+- Problemas con los datos que contengan la letra **Ñ**
+- Paginacion.
 
 Issues cerrados:
-Agregar un **if** en los archivos PHP que manipulen imagenes.
+- Agregar un **if** en los archivos PHP que manipulen imagenes.
 - Problemas con paginacion.
-- Problemas para publicar un nuevo Objeto bug.
+- Problemas para publicar un nuevo Objeto.
 - Problemas para modificar un objeto.
-- Problema para hacer Login desde la app de Android bug.
+- Problema para hacer Login desde la app de Android.
 - Agregar nuevo estado ¨No Aplica¨ para la tabla Estado.
 - Agregar horario real al objeto y no un texto simple.
 - Cambiar la ubicación del Objeto por coordenadas.
 - La barra de búsqueda aparece con un texto en Ingles.
+- Evitar que pueda eliminar y editar objetos de otros usuarios.

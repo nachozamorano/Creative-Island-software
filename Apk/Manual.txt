@@ -4,7 +4,7 @@ donaciones, publicar objetos, modificar el objeto, eliminar objeto, crear un usu
 
 Ésta aplicación se puede descargar accediendo al Github https://github.com/nachozamorano/Creative-Island-software/tree/branch_ignacio/Apk
 
-Al inicio de la aplicacion se muestra el Login que consta con un registro si aun no tiene cuenta y un boton iniciar cuando ya este registrado y pasar al menu principal. El menu principal contiene todos los objetos que estan siendo donado por ciudadanos de Quilpue, contiene como funcionalidad una paginacion que muestra 5 objetos y uno puede navegar con los botones siguente (para avanzar) o atras ( para retroeder), se pueden clickear los objetos de la lista pudiendo ver mas detalladamente. Seguido en la misma vista un boton (+) con ese simbolo para poder subir un objeto para ser donado. Ademas contiene un menu al lado izquierdo que se puede ver el perfil, Mis publicaciones, Historial donados, Historial adquiridos.
+Al inicio de la aplicacion se muestra el Login que consta con un registro si aun no tiene cuenta y un boton iniciar cuando ya este registrado y pasar al menu principal. El menu principal contiene todos los objetos que estan siendo donado por ciudadanos de Quilpue, contiene como funcionalidad una paginacion que muestra 5 objetos y uno puede navegar con los botones siguente (para avanzar) o atras ( para retroeder), se pueden clickear los objetos de la lista pudiendo ver mas detalladamente. Seguido en la misma vista un boton (+) con ese simbolo para poder subir un objeto para ser donado. Ademas contiene un menu al lado izquierdo que se puede ver el perfil, Mis publicaciones, Historial donados, Historial adquiridos, loguin, registro, buscador.
 
 - El perfil contiene los datos del ciudadano que serian la imagen, la ciudad, correo, telefono movil, telefono fijo y genero. Ademas el ciudadano en su perfil lo puede modificar apretando el boton modificar y dando click al boton listo cuando esta listo para el cambio.
 
@@ -12,4 +12,10 @@ Al inicio de la aplicacion se muestra el Login que consta con un registro si aun
 
 - Historial donados contiene los objetos que he donado y tambien al dar click en el objeto se muestra el nombre del interesado en el objeto y su estado de si esta Libre, Reservado o Donado.
 
-- Historial adquiridos contiene una lista con los objetos que yo como usuario he adquirido y divisar con detalle en que momento y a quien fue.
+- Historial reservados contiene una lista con los objetos que yo como usuario he reservado y divisar con detalle en que momento y a quien fue reservado.
+
+- Cuenta con un loguin y registro para iniciar a la aplicacion.
+
+- Un buscador para buscar por el nombre del objeto o su categoria respectiva.
+
+- Cuenta con un sistema de reservas a y cancelado del mismo.
