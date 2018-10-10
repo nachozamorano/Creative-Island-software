@@ -7,8 +7,8 @@ Descarga:
 Ahora procede a descargar la aplicación APK Eco Ruta en esta direccion https://github.com/nachozamorano/Creative-Island-software/tree/branch_ignacio/Apk.
 
 Instalacion:
-Cuando hayas bajado la aplicación tendrás una notificación, y sólo tendrás que abrir el panel de notificaciones y pulsar sobre Eco Ruta
+Cuando hayas bajado la aplicación tendrás una notificación, y sólo tendrás que abrir el panel de notificaciones y pulsar sobre Pickup Market
 
 Te aparecerá la tabla de información con todos los elementos de tu móvil a los que va a acceder la app, y sólo tendrás que pulsar en Instalar para proceder a instalarla.
 
-Y listo instalada la aplicacion Eco Ruta.!!!!!
+Y listo instalada la aplicacion Pickup Market.!!!!!

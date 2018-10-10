@@ -1,4 +1,4 @@
-La aplicación de Mercado virtual de donaciones Eco Ruta es una aplicación para smartphones
+La aplicación de Mercado virtual de donaciones Pickup Market es una aplicación para smartphones
 Android versión 8.0 o superior, que permite la donacion entre ciudadanos o recolectores de objetos que estan a punto de transformarse basura pero que aun estan buenos publicandolo en esta aplicacion para algun interesado de adquirirlo. La aplicación es nativa, por lo que las conexiones son rápidas y la interfaz está simplificada para el uso en el teléfono. Las funciones de la aplicación son ver las
 donaciones, publicar objetos, modificar el objeto, eliminar objeto, crear un usuario, entre otras. Todo este es ambientado en la ciudad de QUilpue para su municipalida y su ciudadania.
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/perfil"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="Perfil"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+<item android:id="@+id/modificacion"
+    android:icon="@drawable/ic_more_vert_black_24dp"
+    android:title="Mis publicaciones"
+    android:orderInCategory="100"
+    app:showAsAction="never" />
+    <item android:id="@+id/historial_don"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="Historial donados"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/historial_adq"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="Mis reservas"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>
