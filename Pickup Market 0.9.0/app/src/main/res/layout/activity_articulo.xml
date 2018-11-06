@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lnr1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="105dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="196dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:gravity="center"
+        android:text="Reservar"
+        android:textAlignment="center" />
+
+    <ListView
+        android:id="@+id/listado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:headerDividersEnabled="true"
+        android:isScrollContainer="true"
+        android:nestedScrollingEnabled="true">
+
+
+    </ListView>
+
+</LinearLayout>
