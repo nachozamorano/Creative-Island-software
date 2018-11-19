@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="10dp"
+
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/movieImage"
+            android:layout_width="76dp"
+            android:layout_height="67dp"
+            android:padding="10dp"
+            android:src="@drawable/grad" />
+
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movieImage"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/descTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameTxt"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="27dp"
+            android:layout_marginRight="27dp"
+            android:padding="10dp"
+            android:text="Mayor informacion"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="83dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="128dp"
+            android:layout_marginEnd="-15dp"
+            android:layout_marginRight="-15dp"
+            android:layout_toStartOf="@+id/descTxt"
+            android:layout_toLeftOf="@+id/descTxt"
+            android:text="Categoria:" />
+
+        <TextView
+            android:id="@+id/estado_objeto"
+            android:layout_width="69dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/descTxt"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="173dp"
+            android:layout_marginLeft="173dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="61dp"
+            android:layout_marginRight="61dp"
+            android:layout_marginBottom="87dp"
+            android:layout_toEndOf="@+id/movieImage"
+            android:layout_toRightOf="@+id/movieImage"
+            android:gravity="right|center"
+            android:text="TextView"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="96dp"
+            android:layout_height="23dp"
+            android:layout_above="@+id/descTxt"
+            android:layout_alignEnd="@+id/color_estado"
+            android:layout_alignRight="@+id/estado_objeto"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="-11dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="143dp"
+            android:layout_marginRight="145dp"
+            android:layout_marginBottom="88dp"
+            android:layout_toRightOf="@+id/movieImage"
+            android:gravity="right"
+            android:text="Estado objeto:" />
+
+        <ImageView
+            android:id="@+id/color_estado"
+            android:layout_width="28dp"
+            android:layout_height="25dp"
+            android:layout_alignEnd="@+id/descTxt"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="-4dp" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

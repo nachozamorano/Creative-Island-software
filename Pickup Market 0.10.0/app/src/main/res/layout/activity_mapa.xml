@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mapLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filtro por distancia"
+            android:textColor="@color/headings"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <SeekBar
+                android:id="@+id/bar"
+                android:layout_width="308dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filtro por categoria"
+            android:textColor="@color/headings"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Spinner
+                android:id="@+id/spinner_categoría"
+                android:layout_width="322dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:text="Filtro por horario"
+            android:textColor="@color/headings"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/desde"
+                android:layout_width="354dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:focusable="false"
+                android:fontFamily="sans-serif-light"
+                android:hint="Desde (Click para editar)"
+                android:inputType="time"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/hasta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:focusable="false"
+                android:fontFamily="sans-serif-light"
+                android:hint="Hasta (Click para editar)"
+                android:inputType="time"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/filtrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@drawable/boton_redondo"
+            android:text="Filtrar" />
+    </LinearLayout>
+
+
+</LinearLayout>

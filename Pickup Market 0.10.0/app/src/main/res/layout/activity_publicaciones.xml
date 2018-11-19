@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Publicaciones"
+    android:layout_margin="20dp">
+    <EditText
+        android:id="@+id/edittext10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Buscar"
+        >
+    </EditText>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_publicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp">
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/my_fab2"
+        android:layout_alignEnd="@+id/my_fab2"
+        android:layout_alignRight="@+id/my_fab2"
+        android:text="Publicar"
+        android:textSize="15sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/my_fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="14dp"
+        android:src="@drawable/ic_library_add_black_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp" />
+
+</RelativeLayout>
